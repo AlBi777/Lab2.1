@@ -72,7 +72,7 @@ void input(struct smartphone* s) {
 	printf("Введите разрешение фронтальной камеры: ");
 	scanf("%d", &s->camera_get.front_camera);
 
-	printf("Батарея\nВведите емкость батареи: ");
+	printf("Батарея(мАч)\nВведите емкость батареи: ");
 	scanf("%d",&s->battery_get.capacity);
 	printf("Введите тип батареи:");
 	scanf("%s", s->battery_get.type);
@@ -82,7 +82,7 @@ void input(struct smartphone* s) {
 	printf("Введите объем оперативной памяти: ");
 	scanf("%d", &s->memory_get.ram);
 
-	printf("Экран\nВведите диоганаль экрана: ");
+	printf("Экран\nВведите диагональ экрана: ");
 	scanf("%d", &s->screen_get.diagonal);
 	printf("Введите тип экрана: ");
 	scanf("%s", s->screen_get.type);
